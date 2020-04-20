@@ -1,0 +1,77 @@
+{
+  "category": {
+    "medicine": {
+      "painkiller": [
+        {
+          "name": "타이레놀 (Tylenol Regular Strength Liquid Gels, 90 Count) ",
+          "url": "www.google.com",
+          "price":4390,
+          "grade":4.7
+        },
+        {
+          "name": "오메가 3 Omega 3",
+          "url": "www.google.com",
+          "price":4390,
+          "grade":4.7
+        },
+        {
+          "name": "Omega 3",
+          "url": "www.google.com",
+          "price":4390,
+          "grade":4.7
+        },
+        {
+          "name": "Omega 4",
+          "url": "www.google.com",
+          "price":4390,
+          "grade":4.7
+        },
+        {
+          "name": "Omega 5",
+          "url": "www.google.com",
+          "price":4390,
+          "grade":4.7
+        },
+        {
+          "name": "Omega 6",
+          "url": "www.google.com",
+          "price":4390,
+          "grade":4.7
+        },
+        {
+          "name": "Omega 7",
+          "search times": 40,
+          "url": "www.google.com",
+          "price":4390,
+          "grade":4.7
+        },
+        {
+          "name": "Omega 8",
+          "url": "www.google.com",
+          "price":4390,
+          "grade":4.7
+        }
+      ],
+      "antibiotic": [
+        {
+          "name": "오메가 3 Omega 3",
+          "url": "www.google.com"
+        },
+        {
+          "name": "Omega 3",
+          "url": "www.google.com"
+        }],
+      "anticancer_drug": [],
+      "peptic": [],
+      "natural_medicine": []
+    },
+    "quasi-drug": {
+    },
+    "cosmetic": {
+    },
+    "household_goods": {
+    },
+    "food": {
+    }
+  }
+}

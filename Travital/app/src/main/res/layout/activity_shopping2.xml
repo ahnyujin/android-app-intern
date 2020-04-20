@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:id="@+id/closeshopping"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="start|center_horizontal|end"
+                android:src="@drawable/ic_chevron_left_black_24dp"
+                android:tint="@color/colorPrimary"
+                android:background="#fff"
+                android:layout_weight="1"/>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tablayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1">
+            </android.support.design.widget.TabLayout>
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/grid_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:columnWidth="100dp"
+            android:numColumns="4"
+            android:gravity="center"
+            android:duplicateParentState="true"
+            android:background="@color/backgroundcolor">
+
+        </GridView>
+        <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="필터"
+        android:textColor="#ffffff"
+        android:background="@drawable/ovalbtn"
+            android:layout_margin="10dp"
+            android:layout_gravity="end"/>
+
+
+        <ListView
+            android:id="@+id/category_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

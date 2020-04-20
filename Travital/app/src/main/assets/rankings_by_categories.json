@@ -1,0 +1,231 @@
+{
+  "categories":{
+    "entire": [
+      {
+        "name": "타이레놀 (Tylenol Regular Strength Liquid Gels, 90 Count) ",
+        "url": "www.google.com"
+      },
+      {
+        "name": "오메가 3 Omega 3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "Omega 3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "Omega 4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "Omega 5",
+        "url": "www.google.com"
+      },
+      {
+        "name": "Omega 6",
+        "url": "www.google.com"
+      }
+    ],
+    "medicine": [
+
+      {
+        "name": "약1",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약2",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약5",
+        "url": "www.google.com"
+      }
+    ],
+    "quasi-drug": [
+
+      {
+        "name": "약1",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약2",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약5",
+        "url": "www.google.com"
+      }],
+    "cosmetic": [
+
+      {
+        "name": "약1",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약2",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약5",
+        "url": "www.google.com"
+      }],
+    "food": [
+
+      {
+        "name": "약1",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약2",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약5",
+        "url": "www.google.com"
+      }]
+  },
+  "by_age": {
+    "child": [
+
+      {
+        "name": "약1",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약2",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약5",
+        "url": "www.google.com"
+      }],
+    "10": [
+
+      {
+        "name": "약1",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약2",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약5",
+        "url": "www.google.com"
+      }],
+    "20": [
+
+      {
+        "name": "약1",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약2",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약5",
+        "url": "www.google.com"
+      }],
+    "30": [
+
+      {
+        "name": "약1",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약2",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약5",
+        "url": "www.google.com"
+      }],
+    "40": [
+
+      {
+        "name": "약1",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약2",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약3",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약4",
+        "url": "www.google.com"
+      },
+      {
+        "name": "약5",
+        "url": "www.google.com"
+      }]
+  }
+}

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="xxx님이 복용중인 약품 목록"
+        android:textColor="@color/text"
+        android:layout_margin="20dp"/>
+    <HorizontalScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:paddingHorizontal="30dp">
+            <Button
+                android:layout_height="110dp"
+                android:layout_width="130dp"
+                android:layout_margin="10dp" />
+            <Button
+                android:layout_height="110dp"
+                android:layout_width="130dp"
+                android:layout_margin="10dp"/>
+            <Button
+                android:layout_height="110dp"
+                android:layout_width="130dp"
+                android:layout_margin="10dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="300dp"
+            android:ems="10"
+            android:hint="찾으시는 약품명을 입력하세요."
+            android:textColorHint="@color/text"
+            android:textColor="@color/text"
+            android:inputType="text"
+            android:layout_margin="20dp">
+
+        </EditText>
+            <Button
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:background="@color/colorPrimary"
+                android:src="@drawable/ic_block_black_24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

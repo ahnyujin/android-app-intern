@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/agree_gradient">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="604dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/back_button"
+            android:layout_width="149dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_chevron_left_black_24dp"
+            android:drawableTint="#ffffff"
+            android:text="이전으로 돌아가기"
+            android:textColor="#ffffff"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:background="@color/transparent"
+            android:stateListAnimator="@null"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="235dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:src="@drawable/brandlogo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="아이디"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textColor="#ffffff"
+            android:theme="@style/EditTheme"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="비밀번호"
+            android:textColor="#ffffff" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:textColor="#ffffff"
+            android:theme="@style/EditTheme"/>
+
+        <TextView
+            android:id="@+id/lost_pw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="20dp"
+            android:text="비밀번호를 잊어버리셨나요?"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="267dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/oval_white_empty_btn"
+            android:onClick="onClick"
+            android:text="로그인"
+            android:textColor="#ffffff"
+            tools:context=".MainActivity" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
